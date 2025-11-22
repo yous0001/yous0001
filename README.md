@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **React , node.js , oswap10**
 
-- 👨‍💻 All of my projects are available at [https://github.com/yous0001/yous0001](https://github.com/yous0001/yous0001)
+- 👨‍💻 All of my projects are available at [https://github.com/yous0001](https://github.com/yous0001)
 
 - 📝 MY Portfolio [https://yousefemad.vercel.app](https://yousefemad.vercel.app)
 
