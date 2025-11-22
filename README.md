@@ -10,7 +10,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/yous0001/yous0001](https://github.com/yous0001/yous0001)
 
-- 📝 MY Portfolio [https://protfolio-teal-two.vercel.app](https://protfolio-teal-two.vercel.app)
+- 📝 MY Portfolio [https://yousefemad.vercel.app](https://yousefemad.vercel.app)
 
 - 📫 How to reach me **mad33833@gmail.com**
 
