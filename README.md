@@ -27,7 +27,7 @@
 <h3 align="left">Tech stack & skills</h3>
 
 - <b>Primary backend</b>: Node.js, NestJS, Express.js, Socket.IO, Bun, REST APIs, GraphQL
-- <b>Databases</b>: MongoDB (main), PostgreSQL, MySQL
+- <b>Databases & ORMs</b>: MongoDB (main), PostgreSQL, MySQL, Mongoose, Sequelize, TypeORM, Prisma
 - <b>Frontend</b>: React, Next.js (for full‑stack and dashboard UIs), JavaScript (ES6+), TypeScript, HTML5, CSS3, Bootstrap, Tailwind CSS, Sass
 - <b>DevOps & Tools</b>: Docker, Kubernetes, Jenkins, Bitbucket, Git, GitHub, Postman, Linux
 - <b>Testing</b>: Jest
@@ -45,10 +45,12 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" alt="nestjs" width="40" height="40"/>
   </a>
   <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg#gh-light-mode-only" alt="express" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg#gh-dark-mode-only" alt="express" width="40" height="40" style="filter: invert(1);"/>
   </a>
   <a href="https://socket.io/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" alt="socket.io" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg#gh-light-mode-only" alt="socket.io" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg#gh-dark-mode-only" alt="socket.io" width="40" height="40" style="filter: invert(1);"/>
   </a>
   <a href="https://bun.sh/" target="_blank" rel="noreferrer">
     <img src="https://bun.sh/logo.svg" alt="bun" width="40" height="40"/>
@@ -56,19 +58,15 @@
   <a href="https://graphql.org" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/>
   </a>
+  <a href="https://jestjs.io/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest" width="40" height="40"/>
+  </a>
   <a href="https://postman.com" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
   </a>
 </p>
 
-<h4 align="left">Testing</h4>
-<p align="left">
-  <a href="https://jestjs.io/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest" width="40" height="40"/>
-  </a>
-</p>
-
-<h4 align="left">Databases</h4>
+<h4 align="left">Databases and ORMs</h4>
 <p align="left">
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/>
@@ -79,6 +77,11 @@
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/>
   </a>
+  <br/>
+  <img src="https://img.shields.io/badge/Mongoose-47A248?style=flat&logo=mongoose&logoColor=white" alt="mongoose"/>
+  <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=sequelize&logoColor=white" alt="sequelize"/>
+  <img src="https://img.shields.io/badge/TypeORM-E83524?style=flat&logo=typeorm&logoColor=white" alt="typeorm"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" alt="prisma"/>
 </p>
 
 <h4 align="left">DevOps / CI-CD</h4>
@@ -103,7 +106,7 @@
   </a>
 </p>
 
-<h4 align="left">Frontend (sometimes)</h4>
+<h4 align="left">Frontend</h4>
 <p align="left">
   <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40"/>
@@ -143,39 +146,6 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
   </a>
 </p>
-
----
-
-<h3 align="center">Architecture & workflow diagrams</h3>
-
-<details>
-  <summary><b>MERN + backend architecture</b></summary>
-
-```mermaid
-flowchart LR
-  User[User Browser] --> Frontend[Next.js / React]
-  Frontend --> API[NestJS / Express (Node.js)]
-  API --> MongoDB[(MongoDB)]
-  API --> PostgreSQL[(PostgreSQL)]
-  API --> MySQL[(MySQL)]
-```
-
-</details>
-
-<details>
-  <summary><b>CI/CD & DevOps pipeline</b></summary>
-
-```mermaid
-flowchart LR
-  Dev[Developer] --> Repo[GitHub / Bitbucket]
-  Repo --> Jenkins[Jenkins CI/CD]
-  Jenkins --> Docker[Docker image build]
-  Docker --> Registry[Container Registry]
-  Registry --> K8s[Kubernetes cluster]
-  K8s --> Prod[Production Deployment]
-```
-
-</details>
 
 ---
 
