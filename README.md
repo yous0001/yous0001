@@ -39,55 +39,46 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <table cellpadding="14" cellspacing="0" width="100%" style="border:1px solid #30363d;border-radius:14px;">
-        <tr><td>
-          <h4 align="left">Backend stack</h4>
-          <p align="left">
-            <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,socketio,bun,graphql,jest,postman&theme=dark&perline=8" alt="backend stack" />
-          </p>
-        </td></tr>
-      </table>
+      <div style="border: 1px solid #30363d; border-radius: 14px; padding: 14px;">
+        <h4 align="left">Backend stack</h4>
+        <p align="left">
+          <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,socketio,bun,graphql,jest,postman&theme=dark&perline=8" alt="backend stack" />
+        </p>
+      </div>
       <br/>
-      <table cellpadding="14" cellspacing="0" width="100%" style="border:1px solid #30363d;border-radius:14px;">
-        <tr><td>
-          <h4 align="left">Databases & ORMs</h4>
-          <p align="left">
-            <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,sequelize,prisma&theme=dark&perline=10" alt="databases and orms" />
-          </p>
-          <p align="left">
-            <img src="https://img.shields.io/badge/Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongoose"/>
-            <img src="https://camo.githubusercontent.com/504a44d5544bb95a9d51f9c64de67d5f24290b8e632e6123b67dae2915d32bfe/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970654f524d2d4538333532343f7374796c653d666f722d7468652d6261646765266c6f676f3d747970656f726d266c6f676f436f6c6f723d7768697465" alt="typeorm"/>
-          </p>
-        </td></tr>
-      </table>
+      <div style="border: 1px solid #30363d; border-radius: 14px; padding: 14px;">
+        <h4 align="left">Databases & ORMs</h4>
+        <p align="left">
+          <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,sequelize,prisma&theme=dark&perline=10" alt="databases and orms" />
+        </p>
+        <p align="left">
+          <!-- Mongoose and TypeORM (badge style - very reliable on GitHub) -->
+          <img src="https://img.shields.io/badge/Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongoose"/>
+          <img src="https://camo.githubusercontent.com/504a44d5544bb95a9d51f9c64de67d5f24290b8e632e6123b67dae2915d32bfe/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970654f524d2d4538333532343f7374796c653d666f722d7468652d6261646765266c6f676f3d747970656f726d266c6f676f436f6c6f723d7768697465" alt="typeorm"/>
+        </p>
+      </div>
     </td>
     <td width="50%" valign="top">
-      <table cellpadding="14" cellspacing="0" width="100%" style="border:1px solid #30363d;border-radius:14px;">
-        <tr><td>
-          <h4 align="left">DevOps / CI-CD</h4>
-          <p align="left">
-            <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,bitbucket,git,github,linux&theme=dark&perline=10" alt="devops" />
-          </p>
-        </td></tr>
-      </table>
+      <div style="border: 1px solid #30363d; border-radius: 14px; padding: 14px;">
+        <h4 align="left">DevOps / CI-CD</h4>
+        <p align="left">
+          <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,bitbucket,git,github,linux&theme=dark&perline=10" alt="devops" />
+        </p>
+      </div>
       <br/>
-      <table cellpadding="14" cellspacing="0" width="100%" style="border:1px solid #30363d;border-radius:14px;">
-        <tr><td>
-          <h4 align="left">Frontend</h4>
-          <p align="left">
-            <img src="https://skillicons.dev/icons?i=nextjs,react,bootstrap,tailwind,sass,html,css&theme=dark&perline=10" alt="frontend" />
-          </p>
-        </td></tr>
-      </table>
+      <div style="border: 1px solid #30363d; border-radius: 14px; padding: 14px;">
+        <h4 align="left">Frontend</h4>
+        <p align="left">
+          <img src="https://skillicons.dev/icons?i=nextjs,react,bootstrap,tailwind,sass,html,css&theme=dark&perline=10" alt="frontend" />
+        </p>
+      </div>
       <br/>
-      <table cellpadding="14" cellspacing="0" width="100%" style="border:1px solid #30363d;border-radius:14px;">
-        <tr><td>
-          <h4 align="left">Programming languages</h4>
-          <p align="left">
-            <img src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=dark&perline=10" alt="programming languages" />
-          </p>
-        </td></tr>
-      </table>
+      <div style="border: 1px solid #30363d; border-radius: 14px; padding: 14px;">
+        <h4 align="left">Programming languages</h4>
+        <p align="left">
+          <img src="https://skillicons.dev/icons?i=js,ts,python,cpp&theme=dark&perline=10" alt="programming languages" />
+        </p>
+      </div>
     </td>
   </tr>
 </table>
